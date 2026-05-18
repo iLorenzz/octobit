@@ -1,8 +1,8 @@
 body{
     --panel-solid: rgba(59, 13, 119, 1);
-    --panel-transparent: rgba(59, 13, 119, 0);
+    --panel-transparent: rgba(59, 13, 119, 0.1);
 
-    --panel-solid-green: rgba(124, 164, 84, 1);
+    --panel-solid-green: rgb(98, 167, 81);
     --panel-transparent-green: rgba(12, 164, 84, 0);
 
     --button-purple: rgba(118, 27, 239, 1);
@@ -10,7 +10,7 @@ body{
     
     --darkest-purple: #3b0d77;
 
-    --text-color: #bbf67e;
+    --text-color: #8BF67E;
     --dark: rgba(8, 8, 8, 1);
     --left-border-color: #4e129f;
     --right-border-color: #7ca454;
