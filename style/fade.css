@@ -5,7 +5,15 @@ body{
     --panel-solid-green: rgba(124, 164, 84, 1);
     --panel-transparent-green: rgba(12, 164, 84, 0);
 
-    --efect-phrase: #bbf67e;
+    --button-purple: rgba(118, 27, 239, 1);
+    --button-purple-less-opacity: rgba(118, 27, 239, 0.5);
+    
+    --darkest-purple: #3b0d77;
+
+    --text-color: #bbf67e;
+    --dark: rgba(8, 8, 8, 1);
+    --left-border-color: #4e129f;
+    --right-border-color: #7ca454;
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,13 +31,52 @@ body{
 }
 
 .fade-panel p{
-    color: var(--efect-phrase);
+    color: var(--text-color);
     font-size: 20px;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 .efect-phrase{
-    color: var(--efect-phrase);
-    font-size: 50px;
+    color: var(--text-color);
+    font-size: 60px;
 }
 
+.fade-panel-buttons{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.main-button{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.left{
+    background: linear-gradient(to left, var(--button-purple), var(--button-purple-less-opacity));
+    font-size: 20px;
+    color: var(--text-color);
+    border-color: var(--left-border-color);
+    cursor: pointer;
+
+    transition: all 0.4s ease-in;
+}
+
+.right{
+    background: var(--panel-transparent);
+    font-size: 20px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    cursor: pointer;
+    
+    transition: all 0.1s ease-in;
+}
+
+.left:hover{
+    background: linear-gradient(to right, var(--button-purple), var(--dark));
+}
+
+.right:hover{
+    background: var(--text-color);
+    color: var(--darkest-purple);
+}
