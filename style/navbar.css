@@ -26,8 +26,10 @@ body{
 }
 
 .navbar-brand{
-    margin-left: 200px;
-    display: flex;
+    margin-left: 200px; 
+    width: 20%;
+    height: 120px;
+    /* display: flex;  */
 }
 
 .navbar-brand img{
