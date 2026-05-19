@@ -27,7 +27,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    background: linear-gradient(to left top, var(--panel-solid), var(--panel-transparent)); 
+    background: linear-gradient(to left bottom, var(--panel-solid), var(--panel-transparent)); 
 }
 
 .fade-panel p{
