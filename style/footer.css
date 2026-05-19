@@ -1,16 +1,43 @@
 .newsletter{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background: linear-gradient(to left bottom, var(--panel-solid), var(--panel-transparent));
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; 
     align-items: center;
 }
 
 #newsletter-title{
     font-size: 30px;
     color: var(--text-color);
-    padding: 30px, 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#newsletter-description{
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+input[type="email"]{
+    background-color: var(--text-color);
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px;
+    border-color: var(--right-border-color);
+    padding-left: 10px;
+    color: var(--dark);
+}
+
+input[type="email"]::placeholder{
+    color: var(--darkest-purple);
+}
+
+input[type="email"]:focus{
+    border: 3px solid var(--right-border-color);
 }
