@@ -1,0 +1,16 @@
+.newsletter{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to left bottom, var(--panel-solid), var(--panel-transparent));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#newsletter-title{
+    font-size: 30px;
+    color: var(--text-color);
+    padding: 30px, 0;
+}
