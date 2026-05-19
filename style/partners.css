@@ -31,5 +31,6 @@ body{
     height: 300px;
     
     margin-left: 25px;
-    
+    border: 2px;
+    border-radius: 4px;
 }
