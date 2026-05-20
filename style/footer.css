@@ -89,9 +89,9 @@ input[type="submit"]:hover{
     margin-right: auto;
 }
 
-.infos img{
+#footer-logo{
     width: 15%;
-    padding-right: 220px;
+    padding-right: 250px;
     padding-left: 50px; 
 }
 
@@ -118,5 +118,55 @@ input[type="submit"]:hover{
 .fast-links a{
     font-size: 16px;
     text-decoration: none;
+    color: var(--text-color);
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+#contact-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--button-purple);
+}
+
+.email-icon{
+    display: flex;
+}
+
+.email-icon img{
+    width: 7%;
+}
+
+.email-icon p{
+    padding-left: 10px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.contact-number{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact-number img{
+    width: 7%;
+}
+
+.contact-number p{
+    padding-left: 10px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.footer hr{
+    color: var(--text-color);
+    opacity: 0.5;
+}
+
+.footer span{
+    margin-top: 30px;
+    font-size: 18px;
     color: var(--text-color);
 }
