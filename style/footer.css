@@ -121,6 +121,10 @@ input[type="submit"]:hover{
     color: var(--text-color);
 }
 
+.fast-links a:hover{
+    color: var(--button-purple);
+}
+
 .contact{
     padding-top: 20px;
 }
