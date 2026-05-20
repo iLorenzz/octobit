@@ -65,3 +65,58 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background: linear-gradient(to right, var(--button-purple), var(--dark));
 }
+
+.footer{
+    width: 100%;
+    /* height: 500;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.footer hr{
+    width: 70%;
+    margin-top: 40px;
+}
+
+.infos{
+    display: flex;
+
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: auto;
+}
+
+.infos img{
+    width: 15%;
+    padding-right: 220px;
+    padding-left: 50px; 
+}
+
+.fast-links{
+    padding-right: 250px;
+    padding-top: 20px;
+}
+
+.fast-links p{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: var(--button-purple);
+}
+
+.fast-links li{
+    padding-bottom: 7px;
+    text-indent: 10px;
+}
+
+.fast-links li::marker{
+    color: var(--button-purple);
+}
+
+.fast-links a{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-color);
+}
