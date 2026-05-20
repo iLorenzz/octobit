@@ -5,7 +5,7 @@ body{
     --panel-solid-green: rgb(98, 167, 81);
     --panel-transparent-green: rgba(98, 167, 81, 0);
 
-    --button-purple: rgba(118, 27, 239, 1);
+    --button-purple: rgb(136, 27, 239);
     --button-purple-less-opacity: rgba(118, 27, 239, 0.5);
     
     --darkest-purple: #3b0d77;
