@@ -1,16 +1,176 @@
 .newsletter{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background: linear-gradient(to left bottom, var(--panel-solid), var(--panel-transparent));
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; 
     align-items: center;
 }
 
 #newsletter-title{
     font-size: 30px;
     color: var(--text-color);
-    padding: 30px, 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#newsletter-description{
+    font-size: 18px;
+    color: var(--text-color);
+    /* margin-bottom: 30px;  */
+}
+
+.newsletter form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="email"]{
+    background-color: var(--light-green);
+    height: 40px;
+    width: 420px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px;
+    border-color: var(--right-border-color);
+    padding-left: 10px;
+    margin-top: 30px;
+    color: var(--darkest-purple);
+}
+
+input[type="email"]::placeholder{
+    color: var(--darkest-purple);
+}
+
+input[type="email"]:focus{
+    border: 3px solid var(--right-border-color);
+    margin-top: calc(30px - 3px);
+}
+
+input[type="submit"]{
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: var(--button-purple);
+    font-size: 18px;
+    color: var(--text-color);
+    border-radius: 8px;
+    border-color: var(--left-border-color);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(to right, var(--button-purple), var(--dark));
+}
+
+.footer{
+    width: 100%;
+    /* height: 500;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.footer hr{
+    width: 70%;
+    margin-top: 40px;
+}
+
+.infos{
+    display: flex;
+
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: auto;
+}
+
+#footer-logo{
+    width: 15%;
+    padding-right: 250px;
+    padding-left: 50px; 
+}
+
+.fast-links{
+    padding-right: 250px;
+    padding-top: 20px;
+}
+
+.fast-links p{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: var(--button-purple);
+}
+
+.fast-links li{
+    padding-bottom: 7px;
+    text-indent: 10px;
+}
+
+.fast-links li::marker{
+    color: var(--button-purple);
+}
+
+.fast-links a{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.fast-links a:hover{
+    color: var(--button-purple);
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+#contact-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--button-purple);
+}
+
+.email-icon{
+    display: flex;
+}
+
+.email-icon img{
+    width: 7%;
+}
+
+.email-icon p{
+    padding-left: 10px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.contact-number{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact-number img{
+    width: 7%;
+}
+
+.contact-number p{
+    padding-left: 10px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.footer hr{
+    color: var(--text-color);
+    opacity: 0.5;
+}
+
+.footer span{
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--text-color);
 }
