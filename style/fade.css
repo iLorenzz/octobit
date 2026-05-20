@@ -5,17 +5,19 @@ body{
     --panel-solid-green: rgb(98, 167, 81);
     --panel-transparent-green: rgba(98, 167, 81, 0);
 
-    --button-purple: rgba(118, 27, 239, 1);
+    --button-purple: rgb(136, 27, 239);
     --button-purple-less-opacity: rgba(118, 27, 239, 0.5);
     
     --darkest-purple: #3b0d77;
+    --ultra-dark-purple: #20083f;
 
     --text-color: #8BF67E;
     --dark: rgba(8, 8, 8, 1);
     --left-border-color: #4e129f;
     --right-border-color: rgb(90, 153, 74);
 
-    --light-green: rgb(147, 246, 149);
+    --light-green: rgb(174, 245, 175);
+    --light-purple: #ddc1f6;
 
     font-family: Arial, Helvetica, sans-serif;
 }
